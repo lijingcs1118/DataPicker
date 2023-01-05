@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Modules\\DataPicker.Modules.ModuleName\\DataPicker.Modules.ModuleName.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\DataPicker.Core\\DataPicker.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\DataPicker.Core\\DataPicker.Core.csproj",
+        "projectName": "DataPicker.Core",
+        "projectPath": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\DataPicker.Core\\DataPicker.Core.csproj",
+        "packagesPath": "C:\\Users\\LiJing\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\DataPicker.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LiJing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Modules\\DataPicker.Modules.ModuleName\\DataPicker.Modules.ModuleName.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Modules\\DataPicker.Modules.ModuleName\\DataPicker.Modules.ModuleName.csproj",
+        "projectName": "DataPicker.Modules.ModuleName",
+        "projectPath": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Modules\\DataPicker.Modules.ModuleName\\DataPicker.Modules.ModuleName.csproj",
+        "packagesPath": "C:\\Users\\LiJing\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Modules\\DataPicker.Modules.ModuleName\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LiJing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\DataPicker.Core\\DataPicker.Core.csproj": {
+                "projectPath": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\DataPicker.Core\\DataPicker.Core.csproj"
+              },
+              "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Services\\DataPicker.Services.Interfaces\\DataPicker.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Services\\DataPicker.Services.Interfaces\\DataPicker.Services.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "PropertyTools.Wpf": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Services\\DataPicker.Services.Interfaces\\DataPicker.Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Services\\DataPicker.Services.Interfaces\\DataPicker.Services.Interfaces.csproj",
+        "projectName": "DataPicker.Services.Interfaces",
+        "projectPath": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Services\\DataPicker.Services.Interfaces\\DataPicker.Services.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\LiJing\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LiJing\\OneDrive\\临时代码\\DataPicker\\DataPicker\\Services\\DataPicker.Services.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LiJing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

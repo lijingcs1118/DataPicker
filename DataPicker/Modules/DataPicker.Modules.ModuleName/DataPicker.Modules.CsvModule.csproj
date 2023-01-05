@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Models\Columns.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\logo-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="gong-wpf-dragdrop" Version="3.2.0" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+    <PackageReference Include="PropertyTools.Wpf" Version="3.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataPicker.Core\DataPicker.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\Enums\" />
+    <Folder Include="Converter\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro.IconPacks.Material">
+      <HintPath>..\..\..\..\..\..\.nuget\packages\mahapps.metro.iconpacks\4.11.0\lib\net5.0-windows7.0\MahApps.Metro.IconPacks.Material.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\category.png" />
+    <Resource Include="Images\chart.png" />
+    <Resource Include="Images\error.png" />
+    <Resource Include="Images\home.png" />
+    <Resource Include="Images\home2.png" />
+    <Resource Include="Images\home3.png" />
+    <Resource Include="Images\lightbulb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\lightbulb1.png" />
+    <Resource Include="Images\logo-small.png" />
+    <Resource Include="Images\sheep.png" />
+  </ItemGroup>
+</Project>

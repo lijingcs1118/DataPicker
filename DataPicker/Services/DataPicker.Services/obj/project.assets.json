@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "DataPicker.Services.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/DataPicker.Services.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataPicker.Services.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataPicker.Services.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../DataPicker.Services.Interfaces/DataPicker.Services.Interfaces.csproj",
+      "msbuildProject": "../DataPicker.Services.Interfaces/DataPicker.Services.Interfaces.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "DataPicker.Services.Interfaces >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\19065\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\19065\\Source\\repos\\DataPicker\\DataPicker\\Services\\DataPicker.Services\\DataPicker.Services.csproj",
+      "projectName": "DataPicker.Services",
+      "projectPath": "C:\\Users\\19065\\Source\\repos\\DataPicker\\DataPicker\\Services\\DataPicker.Services\\DataPicker.Services.csproj",
+      "packagesPath": "C:\\Users\\19065\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\19065\\Source\\repos\\DataPicker\\DataPicker\\Services\\DataPicker.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\19065\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.nuget.org/api/v2": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\19065\\Source\\repos\\DataPicker\\DataPicker\\Services\\DataPicker.Services.Interfaces\\DataPicker.Services.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\19065\\Source\\repos\\DataPicker\\DataPicker\\Services\\DataPicker.Services.Interfaces\\DataPicker.Services.Interfaces.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

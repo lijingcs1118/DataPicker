@@ -1,0 +1,12 @@
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\bin\Release\net6.0-windows\DataPicker.Core.deps.json
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\bin\Release\net6.0-windows\DataPicker.Core.dll
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\bin\Release\net6.0-windows\DataPicker.Core.pdb
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\obj\Release\net6.0-windows\DataPicker.Core.csproj.AssemblyReference.cache
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\obj\Release\net6.0-windows\DataPicker.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\obj\Release\net6.0-windows\DataPicker.Core.AssemblyInfoInputs.cache
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\obj\Release\net6.0-windows\DataPicker.Core.AssemblyInfo.cs
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\obj\Release\net6.0-windows\DataPicker.Core.csproj.CoreCompileInputs.cache
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\obj\Release\net6.0-windows\DataPicker.Core.dll
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\obj\Release\net6.0-windows\refint\DataPicker.Core.dll
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\obj\Release\net6.0-windows\DataPicker.Core.pdb
+C:\Users\19065\Source\repos\DataPicker\DataPicker\DataPicker.Core\obj\Release\net6.0-windows\ref\DataPicker.Core.dll

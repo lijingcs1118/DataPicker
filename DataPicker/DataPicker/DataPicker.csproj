@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>toolbox-icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="C:\Users\19065\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config" />
+    <None Remove="Images\Logo\logo-small.png" />
+    <None Remove="Images\Logo\toolbox-icon.ico" />
+    <None Remove="Images\Logo\toolbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="toolbox-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DryIoc.Microsoft.DependencyInjection" Version="4.0.0" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.2.0" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+    <PackageReference Include="PropertyTools.Wpf" Version="3.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataPicker.Core\DataPicker.Core.csproj" />
+    <ProjectReference Include="..\Modules\DataPicker.Modules.ModuleName\DataPicker.Modules.CsvModule.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logo\logo-small.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Logo\toolbox-icon.ico" />
+    <Resource Include="Images\Logo\toolbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Nlog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

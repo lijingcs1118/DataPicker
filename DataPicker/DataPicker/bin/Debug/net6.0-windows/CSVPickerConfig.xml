@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+  <CSV>
+    <FilePath>C:\Result\ACG</FilePath>
+    <IP>127.0.0.1</IP>
+    <Port>2000</Port>
+    <ModuleIndex>200</ModuleIndex>
+    <Sendrate>1000</Sendrate>
+    <DataType>REAL</DataType>
+    <FileTemplate>C:\20201101005300 01 GA L1041709900-1 00.csv</FileTemplate>
+    <EnableTelCount>1</EnableTelCount>
+    <ReadMode>依次读取所有未更新</ReadMode>
+    <SelectedColumnOutput>
+    </SelectedColumnOutput>
+    <Columns>
+      <Column>
+        <No>4</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>0</SignalIndex>
+        <SignalName>Meas.Time</SignalName>
+        <Offset>8</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>5</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>1</SignalIndex>
+        <SignalName>Kind</SignalName>
+        <Offset>12</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>6</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>2</SignalIndex>
+        <SignalName>Curve No.</SignalName>
+        <Offset>16</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>7</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>3</SignalIndex>
+        <SignalName>Thickness</SignalName>
+        <Offset>20</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>8</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>4</SignalIndex>
+        <SignalName>Width</SignalName>
+        <Offset>24</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>9</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>5</SignalIndex>
+        <SignalName>TOP Dist.</SignalName>
+        <Offset>28</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>10</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>6</SignalIndex>
+        <SignalName>BOT Dist.</SignalName>
+        <Offset>32</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>11</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>7</SignalIndex>
+        <SignalName>Meas.Pos</SignalName>
+        <Offset>36</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>16</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>8</SignalIndex>
+        <SignalName>TOP I-BGH</SignalName>
+        <Offset>40</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>17</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>9</SignalIndex>
+        <SignalName>TOP I-Zn</SignalName>
+        <Offset>44</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>18</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>10</SignalIndex>
+        <SignalName>BOT I-BGL</SignalName>
+        <Offset>48</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>19</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>11</SignalIndex>
+        <SignalName>BOT I-Zeta</SignalName>
+        <Offset>52</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>20</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>12</SignalIndex>
+        <SignalName>BOT I-Gamma</SignalName>
+        <Offset>56</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>21</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>13</SignalIndex>
+        <SignalName>BOT I-BGH</SignalName>
+        <Offset>60</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>22</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>14</SignalIndex>
+        <SignalName>BOT I-Zn</SignalName>
+        <Offset>64</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>23</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>15</SignalIndex>
+        <SignalName>TOP Ithi-BGL</SignalName>
+        <Offset>68</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>24</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>16</SignalIndex>
+        <SignalName>TOP Ithi-Zeta</SignalName>
+        <Offset>72</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>25</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>17</SignalIndex>
+        <SignalName>TOP Ithi-Gamma</SignalName>
+        <Offset>76</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>26</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>18</SignalIndex>
+        <SignalName>TOP Ithi-BGH</SignalName>
+        <Offset>80</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>27</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>19</SignalIndex>
+        <SignalName>TOP Ithi-Zn</SignalName>
+        <Offset>84</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>28</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>20</SignalIndex>
+        <SignalName>BOT Ithi-BGL</SignalName>
+        <Offset>88</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>29</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>21</SignalIndex>
+        <SignalName>BOT Ithi-Zeta</SignalName>
+        <Offset>92</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>30</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>22</SignalIndex>
+        <SignalName>BOT Ithi-Gamma</SignalName>
+        <Offset>96</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>31</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>23</SignalIndex>
+        <SignalName>BOT Ithi-BGH</SignalName>
+        <Offset>100</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>32</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>24</SignalIndex>
+        <SignalName>BOT Ithi-Zn</SignalName>
+        <Offset>104</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>33</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>25</SignalIndex>
+        <SignalName>TOP Id-BGL</SignalName>
+        <Offset>108</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>34</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>26</SignalIndex>
+        <SignalName>TOP Id-Zeta</SignalName>
+        <Offset>112</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>35</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>27</SignalIndex>
+        <SignalName>TOP Id-Gamma</SignalName>
+        <Offset>116</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>36</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>28</SignalIndex>
+        <SignalName>TOP Id-BGH</SignalName>
+        <Offset>120</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>37</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>29</SignalIndex>
+        <SignalName>TOP Id-Zn</SignalName>
+        <Offset>124</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>38</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>30</SignalIndex>
+        <SignalName>BOT Id-BGL</SignalName>
+        <Offset>128</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>39</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>31</SignalIndex>
+        <SignalName>BOT Id-Zeta</SignalName>
+        <Offset>132</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>40</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>32</SignalIndex>
+        <SignalName>BOT Id-Gamma</SignalName>
+        <Offset>136</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>41</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>33</SignalIndex>
+        <SignalName>BOT Id-BGH</SignalName>
+        <Offset>140</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>42</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>34</SignalIndex>
+        <SignalName>BOT Id-Zn</SignalName>
+        <Offset>144</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>43</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>35</SignalIndex>
+        <SignalName>TOP Ie-BGL</SignalName>
+        <Offset>148</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>44</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>36</SignalIndex>
+        <SignalName>TOP Ie-Zeta</SignalName>
+        <Offset>152</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>45</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>37</SignalIndex>
+        <SignalName>TOP Ie-Gamma</SignalName>
+        <Offset>156</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>46</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>38</SignalIndex>
+        <SignalName>TOP Ie-BGH</SignalName>
+        <Offset>160</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>47</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>39</SignalIndex>
+        <SignalName>BOT Ie-BGL</SignalName>
+        <Offset>164</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>48</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>40</SignalIndex>
+        <SignalName>BOT Ie-Zeta</SignalName>
+        <Offset>168</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>49</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>41</SignalIndex>
+        <SignalName>BOT Ie-Gamma</SignalName>
+        <Offset>172</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>50</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>42</SignalIndex>
+        <SignalName>BOT Ie-BGH</SignalName>
+        <Offset>176</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>51</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>43</SignalIndex>
+        <SignalName>TOP Ik-Zeta</SignalName>
+        <Offset>180</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>52</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>44</SignalIndex>
+        <SignalName>TOP Ik-Gamma</SignalName>
+        <Offset>184</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>53</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>45</SignalIndex>
+        <SignalName>BOT Ik-Zeta</SignalName>
+        <Offset>188</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>54</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>46</SignalIndex>
+        <SignalName>BOT Ik-Gamma</SignalName>
+        <Offset>192</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>55</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>47</SignalIndex>
+        <SignalName>TOP Ibg-Zeta</SignalName>
+        <Offset>196</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>56</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>48</SignalIndex>
+        <SignalName>TOP Ibg-Gamma</SignalName>
+        <Offset>200</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>57</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>49</SignalIndex>
+        <SignalName>BOT Ibg-Zeta</SignalName>
+        <Offset>204</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>58</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>50</SignalIndex>
+        <SignalName>BOT Ibg-Gamma</SignalName>
+        <Offset>208</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>59</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>51</SignalIndex>
+        <SignalName>TOP Ib-Zeta</SignalName>
+        <Offset>212</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>60</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>52</SignalIndex>
+        <SignalName>TOP Ib-Gamma</SignalName>
+        <Offset>216</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>61</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>53</SignalIndex>
+        <SignalName>BOT Ib-Zeta</SignalName>
+        <Offset>220</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>62</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>54</SignalIndex>
+        <SignalName>BOT Ib-Gamma</SignalName>
+        <Offset>224</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>63</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>55</SignalIndex>
+        <SignalName>Count</SignalName>
+        <Offset>228</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>64</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>56</SignalIndex>
+        <SignalName>TOP Zn</SignalName>
+        <Offset>232</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>65</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>57</SignalIndex>
+        <SignalName>TOP Fe</SignalName>
+        <Offset>236</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>66</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>58</SignalIndex>
+        <SignalName>BOT Zn</SignalName>
+        <Offset>240</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+      <Column>
+        <No>67</No>
+        <DataType>REAL</DataType>
+        <SignalIndex>59</SignalIndex>
+        <SignalName>BOT Fe</SignalName>
+        <Offset>244</Offset>
+        <StringLength>0</StringLength>
+      </Column>
+    </Columns>
+  </CSV>
+</Configuration>
